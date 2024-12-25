@@ -1,0 +1,170 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: #0a0b27;
+  padding: 1rem 2rem;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 3rem;
+  list-style: none;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: orangered;
+}
+
+/* Icon styling */
+.fa-solid {
+  color: white;
+  margin-left: 5px;
+}
+
+/* Remove the icon hover effect */
+.nav-item:hover .fa-solid {
+  color: white; /* Keep icons white even when nav item is hovered */
+}
+
+.image-banner {
+  max-width: 100%;
+
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 20px;
+  height: 1100px;
+
+}
+
+#karakkam {
+  height: 310px;
+  width: 90px;
+  margin-left: 40%;
+  margin-top: 60%;
+  position: relative;
+
+}
+
+.frooti {
+  margin-top: -33%;
+  font-family: EksellDisplayWeb-Small;
+  font-size: 50px;
+  color: aliceblue;
+  text-align: center;
+  font-weight: 800;
+  letter-spacing: 3px;
+  z-index: 1;
+  position: relative;
+}
+
+.content p {
+  font-family: "merivaregular";
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+.frootis {
+  max-width: 100%;
+
+}
+
+.top-footer {
+  background-color: #fff;
+  padding: 20px;
+  width: 100%;
+}
+
+.container-fluid {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+
+}
+
+.footer-blocks {
+  flex: 1;
+  padding: 0 15px;
+  min-width: 0;
+}
+
+.footer-blocks p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #0a0b27;
+  margin-bottom: 15px;
+  word-wrap: break-word;
+}
+
+.footer-blocks a {
+  color: #0a0b27;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.footer-blocks a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.footer-blocks:last-child a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.fab {
+  color: #fff;
+  font-size: 14px;
+  padding: 6px 6px;
+  vertical-align: middle;
+  background-color: #0a0b27;
+  margin-right: 5px;
+  font-weight: bolder;
+  border-radius: 50%;
+  transition: all .5s ease-in;
+}
+
+.fab:hover {
+  background-color: #e53f27;
+}
+
+/* New styles for contact info */
+.contact-line {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.contact-line span {
+  display: inline;
+}
+
+.contact-label {
+  display: inline;
+}
